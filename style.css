@@ -1,0 +1,83 @@
+/* Fonts and Colors */
+body {
+  font-family: 'Open Sans', sans-serif;;
+  font-size: 16px;
+  color: rgb(20, 20, 20);
+  background-color: rgb(230, 230, 230);
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 23px;
+  color: #be3737;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 17px;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(150, 150, 150);
+}
+
+a:hover{
+  color: #be3737;
+}
+
+/* Custom design with classes */
+
+.section-white {
+  background-color: white;
+  padding: 50px;
+  border-radius: 4px;
+  width: 900px;
+  margin: 10px auto;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 100px;
+}
+
+img{
+  width: 150px;
+  padding: 30px;
+}
+
+.btn-red {
+  background-color: #be3737;
+  padding: 10px 15px;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.btn-red :hover {
+  color: white;
+  background-color: red;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 20px;
+}
+
+.list-line li {
+  display: inline-block;
+}
+
+
